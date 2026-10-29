@@ -63,6 +63,9 @@ class _SessionDetailPageState extends ConsumerState<SessionDetailPage> {
     ));
   }
 
+  /// Rejections are errors; otherwise the note follows the output status (paused = warning).
+  Tone _noteTone(ScanRecord s) => s.deliveryStatus == DeliveryStatus.rejected ? Tone.error : s.outputStatus.tone;
+
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
@@ -111,7 +114,8 @@ class _SessionDetailPageState extends ConsumerState<SessionDetailPage> {
                             title: Text(s.value, style: const TextStyle(fontFamily: 'monospace'), maxLines: 2, overflow: TextOverflow.ellipsis),
                             subtitle: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                               Text('${formatLocal(context, s.capturedAt)} · ${l.quantityShort} ${s.quantity}'),
-                              if (s.outputError != null) Text(s.outputError!, style: TextStyle(color: context.statusColors.error)),
+                              if (s.outputError != null)
+                                Text(s.outputError!, style: TextStyle(color: context.statusColors.of(_noteTone(s)))),
                               const SizedBox(height: Sb.xs),
                               ScanStatusChips(s),
                             ]),
