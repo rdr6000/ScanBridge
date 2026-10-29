@@ -1,0 +1,19 @@
+name: scanbridge_ui
+description: ScanBridge shared design system and localizations.
+publish_to: none
+version: 0.1.0
+resolution: workspace
+environment:
+  sdk: ^3.13.0
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.3
+  scanbridge_domain:
+    path: ../scanbridge_domain
+flutter:
+  generate: true
+dev_dependencies:
+  flutter_lints: ^6.0.0

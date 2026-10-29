@@ -1,0 +1,42 @@
+name: scanbridge_desktop
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+resolution: workspace
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  ffi: ^2.2.0
+  file_selector: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  flutter_secure_storage: ^11.2.0
+  go_router: ^18.1.2
+  intl: ^0.20.3
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  qr_flutter: ^4.1.0
+  scanbridge_domain:
+    path: ../../packages/scanbridge_domain
+  scanbridge_protocol:
+    path: ../../packages/scanbridge_protocol
+  scanbridge_storage:
+    path: ../../packages/scanbridge_storage
+  scanbridge_template_engine:
+    path: ../../packages/scanbridge_template_engine
+  scanbridge_ui:
+    path: ../../packages/scanbridge_ui
+  uuid: ^4.6.0
+  win32: ^6.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  async: ^2.13.1
+
+flutter:
+  uses-material-design: true

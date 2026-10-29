@@ -1,0 +1,571 @@
+{
+  "@@locale": "en",
+  "appTitle": "ScanBridge",
+  "navDashboard": "Dashboard",
+  "navFeed": "Live feed",
+  "navSessions": "Sessions",
+  "navDevices": "Devices",
+  "navTemplates": "Templates",
+  "navKeyboardTest": "Keyboard test",
+  "navSettings": "Settings",
+  "navDiagnostics": "Diagnostics",
+  "cancel": "Cancel",
+  "save": "Save",
+  "apply": "Apply",
+  "close": "Close",
+  "retry": "Retry",
+  "delete": "Delete",
+  "edit": "Edit",
+  "copy": "Copy",
+  "undo": "Undo",
+  "redo": "Redo",
+  "rename": "Rename",
+  "archive": "Archive",
+  "archived": "Archived",
+  "restore": "Restore",
+  "export": "Export",
+  "import": "Import",
+  "merge": "Merge",
+  "duplicate": "Duplicate",
+  "preview": "Preview",
+  "approve": "Approve",
+  "decline": "Decline",
+  "enable": "Enable",
+  "change": "Change",
+  "back": "Back",
+  "forget": "Forget",
+  "revoke": "Revoke",
+  "moreActions": "More actions",
+  "selectAll": "Select all",
+  "name": "Name",
+  "label": "Label",
+  "value": "Value",
+  "quantity": "Quantity",
+  "quantityShort": "Qty",
+  "symbology": "Format",
+  "capturedAt": "Captured",
+  "receivedAt": "Received",
+  "source": "Source",
+  "device": "Device",
+  "template": "Template",
+  "port": "Port",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "errorCode": "Error code",
+  "pressEnterToSave": "Press Enter to save",
+  "commaSeparated": "Comma separated",
+  "statusCaptured": "Captured",
+  "statusQueued": "Queued",
+  "statusDelivered": "Delivered",
+  "statusRejected": "Rejected",
+  "statusFailed": "Failed",
+  "statusLocalOnly": "Local only",
+  "outputNone": "No output",
+  "outputPending": "Output pending",
+  "outputSucceeded": "Typed",
+  "outputFailed": "Output failed",
+  "outputSkipped": "Skipped",
+  "outputPaused": "Paused",
+  "validationValid": "Valid",
+  "validationDuplicate": "Duplicate",
+  "validationInvalid": "Invalid",
+  "validationUnchecked": "Unchecked",
+  "serverRunning": "Server running on port {port}",
+  "@serverRunning": {
+    "placeholders": {
+      "port": {
+        "type": "int"
+      }
+    }
+  },
+  "serverStarting": "Server starting…",
+  "serverError": "Server error",
+  "serverStopped": "Server stopped",
+  "devicesConnected": "{count, plural, =0{No phones connected} =1{1 phone connected} other{{count} phones connected}}",
+  "@devicesConnected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lanModeOn": "LAN mode",
+  "keyboardArmed": "Keyboard output armed",
+  "keyboardPaused": "Keyboard output paused",
+  "pauseShortcutHint": "Ctrl+Shift+P toggles output while this window is focused. Scans are still saved while paused.",
+  "serverTitle": "Server",
+  "startServer": "Start server",
+  "stopServer": "Stop server",
+  "lanModeTitle": "Allow phones on my local network",
+  "lanModeOnHint": "Listening on all network interfaces.",
+  "lanModeOffHint": "Only this computer can connect (localhost).",
+  "lanModeWarning": "Other devices on this network will be able to reach the server. Every phone must still be paired and approved, and messages are signed, but traffic is not encrypted. Use only on networks you trust.",
+  "recentScans": "Recent scans",
+  "openFeed": "Open feed",
+  "outputFailuresCount": "{count} output failures",
+  "@outputFailuresCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noScansTitle": "No scans yet",
+  "noScansDesktopHint": "Pair a phone and scan a code. Scans appear here as soon as the phone sends them.",
+  "gettingStarted": "Getting started",
+  "stepLan": "Allow phones on the local network",
+  "stepStart": "Start the server",
+  "stepPair": "Pair a phone with the QR code",
+  "stepKeyboard": "Test keyboard output",
+  "stepScan": "Scan your first code",
+  "pairTitle": "Pair a phone",
+  "pairStartServerFirst": "Start the server to pair a phone.",
+  "pairHint": "Show a one-time QR code, then scan it with the ScanBridge phone app.",
+  "pairNeedsLan": "Phones can only reach this computer after you allow the local network above.",
+  "showPairingQr": "Show pairing QR",
+  "pairingQrLabel": "Pairing QR code",
+  "pairingCode": "Pairing code",
+  "pairExpiresIn": "Expires in {seconds} s",
+  "@pairExpiresIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "pairSingleUse": "Works once. A wrong code also uses it up.",
+  "regenerate": "New code",
+  "pairApproveTitle": "Approve this phone?",
+  "pairApproveBody": "\"{name}\" ({platform}) at {address} wants to send scans to this computer.",
+  "@pairApproveBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      },
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "searchScans": "Search scans",
+  "filterAll": "All",
+  "filterFailed": "Output failed",
+  "filterPaused": "Paused / needs confirmation",
+  "filterDuplicates": "Duplicates",
+  "selectScanTitle": "Select a scan",
+  "selectScanHint": "Details, preview and resend appear here.",
+  "resend": "Resend output",
+  "resendTitle": "Run output again?",
+  "resendWarning": "If the first attempt partly typed into an app, running again may type the value twice. Check the target first.",
+  "confirmAndRun": "Confirm and run",
+  "editValue": "Edit value",
+  "editQuantity": "Edit quantity",
+  "scanDeleted": "Scan deleted",
+  "dryRunTitle": "Dry run",
+  "dryRunHalted": "The template stopped without output (confirmation declined or validation skip).",
+  "dryRunNoActions": "This template produces no output.",
+  "searchSessions": "Search sessions",
+  "newSession": "New session",
+  "sortUpdated": "Recently updated",
+  "sortNewest": "Newest first",
+  "sortOldest": "Oldest first",
+  "sortName": "Name",
+  "noSessionsTitle": "No sessions",
+  "noSessionsHint": "Sessions are created automatically when a phone sends its first scan, or create one now.",
+  "scansCount": "{count, plural, =1{1 scan} other{{count} scans}}",
+  "@scansCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteSessionTitle": "Delete session?",
+  "deleteSessionBody": "\"{name}\" and its {count} scans will be permanently deleted from this device.",
+  "@deleteSessionBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mergeSessions": "Merge sessions",
+  "mergeSessionsBody": "Move all scans from {count} sessions into \"{name}\"?",
+  "@mergeSessionsBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteScansTitle": "Delete scans?",
+  "deleteScansBody": "Delete {count} selected scans? You can undo right after.",
+  "@deleteScansBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "scansDeleted": "{count} scans deleted",
+  "@scansDeleted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dedupeTitle": "Remove duplicates",
+  "dedupeNone": "No duplicate values in this session.",
+  "dedupeBody": "{count} extra copies will be removed; the first scan of each value is kept.",
+  "@dedupeBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "removeDuplicates": "Remove duplicates",
+  "exportSelected": "Export {count}",
+  "@exportSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportTitle": "Export {count} scans",
+  "@exportTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDone": "Saved to {path}",
+  "@exportDone": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "exportFailed": "Export failed: {error}. Your scans are unchanged.",
+  "@exportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "csvBom": "Add UTF-8 BOM (helps Excel detect Unicode)",
+  "csvFormulaGuard": "Spreadsheet-safe values (prevent formula injection)",
+  "csvFormulaGuardOffWarning": "Values starting with = + - @ may run as formulas when opened in a spreadsheet.",
+  "noDevicesTitle": "No paired phones",
+  "noDevicesHint": "Start the server and show a pairing QR on the dashboard.",
+  "deviceOnline": "Online",
+  "devicePaired": "Paired",
+  "deviceRevoked": "Revoked",
+  "devicePending": "Pending",
+  "lastSeen": "last seen {time}",
+  "@lastSeen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "allowScans": "Allow this phone to send scans",
+  "revokeBody": "\"{name}\" will be disconnected and must be paired again.",
+  "@revokeBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "forgetBody": "Remove \"{name}\" from this computer. Its scans are kept.",
+  "@forgetBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "forgetAll": "Forget all",
+  "forgetAllTitle": "Forget all paired phones?",
+  "forgetAllBody": "{count} phones will be disconnected and must be paired again. Scans are kept.",
+  "@forgetAllBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "newTemplate": "New template",
+  "templatesHint": "The selected template runs for scans that do not name one. Phones collect prompt answers for it.",
+  "componentsCount": "{count, plural, =1{1 step} other{{count} steps}}",
+  "@componentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteTemplateBody": "Delete template \"{name}\" and its version history?",
+  "@deleteTemplateBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importFailed": "Import failed",
+  "importPreviewTitle": "Import \"{name}\"?",
+  "@importPreviewTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importPreviewBody": "{count} steps. Unknown steps are kept but disabled.",
+  "@importPreviewBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addComponent": "Add step",
+  "notAvailableYet": "not available yet",
+  "noComponentsTitle": "Empty template",
+  "noComponentsHint": "Add steps such as BARCODE and ENTER. They run top to bottom.",
+  "templateSaved": "Saved as version {version}",
+  "@templateSaved": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "skipOutput": "Skip output (value still available as a variable)",
+  "sampleBarcode": "Sample barcode",
+  "runPreview": "Run preview",
+  "variablesHint": "Variables: barcode, quantity, scan.timestamp, session.name, device.name or a step name, each wrapped in double curly braces.",
+  "formView": "Form",
+  "jsonView": "JSON",
+  "keyboardCapability": "Keyboard output on this computer",
+  "keyboardTestTitle": "Send a test sequence",
+  "testSequence": "Text to type",
+  "appendEnter": "Press Enter afterwards",
+  "sequencePreview": "Preview: type \"{text}\" then {suffix}",
+  "@sequencePreview": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "suffix": {
+        "type": "String"
+      }
+    }
+  },
+  "testTarget": "Test field",
+  "sendTestHere": "Type into the field above",
+  "sendTestOtherApp": "Type into another app in 5 s",
+  "switchWindowCountdown": "Switch to the target window… {seconds}",
+  "@switchWindowCountdown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "keyboardTestOk": "Windows accepted every key event.",
+  "keyboardLimitations": "Typing goes to whichever window has focus. Apps running as administrator, the lock screen and some games block simulated input; use clipboard or file output there.",
+  "settingsGeneral": "General",
+  "settingsNetwork": "Network",
+  "settingsKeyboard": "Keyboard output",
+  "settingsFiles": "Files and exports",
+  "settingsData": "Data and backups",
+  "serverName": "Computer name shown on phones",
+  "autoStartServer": "Start server when the app opens",
+  "keyDelay": "Delay between keys (ms)",
+  "clipboardFallback": "Paste via clipboard when typing is unavailable",
+  "clipboardFallbackHint": "Overwrites the clipboard briefly and restores previous text afterwards.",
+  "confirmDestructive": "Confirm before running key combinations like Ctrl+…, Delete",
+  "confirmDestructiveHint": "Such scans wait in the feed until you confirm them.",
+  "outputFolder": "Output folder (file steps can only write here)",
+  "dataLocation": "Database",
+  "databaseSize": "Size",
+  "backupDatabase": "Back up database",
+  "backupDone": "Backup saved to {path}",
+  "@backupDone": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreHint": "To restore: close ScanBridge and replace the database file above with a backup copy.",
+  "copyDiagnostics": "Copy diagnostics",
+  "diagnosticsCopied": "Diagnostics copied (no scan values or secrets included)",
+  "capabilities": "Capabilities",
+  "firewallTitle": "Firewall and network",
+  "firewallWindows": "Windows Defender Firewall asks once when the server first listens on the network; allow it on Private networks. If phones cannot connect, check Windows Security > Firewall > Allow an app, and that TCP port {port} is allowed on your private network. ScanBridge never changes firewall rules itself.",
+  "@firewallWindows": {
+    "placeholders": {
+      "port": {
+        "type": "int"
+      }
+    }
+  },
+  "firewallMac": "macOS may ask to allow incoming connections; choose Allow. Check System Settings > Network > Firewall if phones cannot connect.",
+  "firewallLinux": "If a firewall (ufw, firewalld) is active, allow TCP port {port} from your local network, for example: sudo ufw allow from 192.168.0.0/16 to any port {port} proto tcp",
+  "@firewallLinux": {
+    "placeholders": {
+      "port": {
+        "type": "int"
+      }
+    }
+  },
+  "recentErrors": "Recent errors",
+  "noErrors": "No errors recorded.",
+  "auditLog": "Audit log",
+  "linkConnected": "Connected to {name}",
+  "@linkConnected": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "linkConnecting": "Connecting…",
+  "linkReconnecting": "Reconnecting…",
+  "linkAwaitingApproval": "Waiting for approval on the computer",
+  "linkDisconnected": "Disconnected",
+  "linkError": "Connection problem",
+  "linkNotPaired": "Not paired — scans stay on this phone",
+  "pendingCount": "{count} waiting to send",
+  "@pendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activeSession": "Active session",
+  "noActiveSession": "A session is created on first scan",
+  "scanButton": "Scan",
+  "scanSingle": "Single scan",
+  "scanContinuous": "Continuous scan",
+  "manualEntry": "Manual entry",
+  "hardwareScanner": "Hardware scanner",
+  "noScansMobileHint": "Tap Scan to capture a code. Scans are saved on this phone first, then sent.",
+  "torch": "Flashlight",
+  "switchCamera": "Switch camera",
+  "cameraUnavailable": "Camera unavailable",
+  "cameraPermissionDenied": "Camera permission was denied. Allow it in system settings, or use manual entry.",
+  "scannerHint": "Place the code inside the frame",
+  "scannerPaused": "Paused",
+  "scannedThisRun": "{count} saved",
+  "@scannedThisRun": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pause": "Pause",
+  "resume": "Resume",
+  "scanRejected": "Not saved: {reason}",
+  "@scanRejected": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "savedScan": "Saved {value}",
+  "@savedScan": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "savedDuplicate": "Saved {value} (duplicate)",
+  "@savedDuplicate": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "saveScan": "Save scan",
+  "manualHint": "Type or paste a code and press Enter.",
+  "hardwareHint": "Keep this field focused and scan with a Bluetooth/USB keyboard-wedge scanner configured to send Enter after each code.",
+  "connectTitle": "Connect to computer",
+  "scanPairingQr": "Scan pairing QR",
+  "manualPairTitle": "Or enter details",
+  "hostAddress": "Computer IP address",
+  "pair": "Pair",
+  "manualPairInvalid": "Enter the IP address, port and the 10-character code shown on the computer.",
+  "pairedOk": "Paired. Scans will now be sent to the computer.",
+  "approveOnComputer": "Approve this phone on the computer screen.",
+  "pairedComputer": "Paired computer",
+  "connect": "Connect",
+  "disconnect": "Disconnect",
+  "forgetHostBody": "This phone will stop sending to this computer. Scans already on the phone are kept.",
+  "connectTroubleshooting": "Can't connect? Both devices must be on the same Wi-Fi (guest networks often isolate devices), the desktop must allow phones on the local network, and its firewall must allow ScanBridge. On iPhone/iPad, allow Local Network for ScanBridge in Settings > Privacy & Security > Local Network.",
+  "useSession": "Use for scanning",
+  "sessionScans": "Session scans",
+  "resendUnsent": "Send {count} unsent scans",
+  "@resendUnsent": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deviceName": "Phone name shown on the computer",
+  "defaultScanMode": "Default scan mode",
+  "modeSingle": "Single",
+  "modeContinuous": "Continuous",
+  "haptics": "Vibrate on scan",
+  "sound": "Sound on scan",
+  "settingsScanning": "Scanning",
+  "defaultQuantity": "Default quantity",
+  "askQuantity": "Ask for quantity on every scan",
+  "duplicates": "Duplicates in a session",
+  "dupAllow": "Allow",
+  "dupWarn": "Warn",
+  "dupBlock": "Block",
+  "formats": "Accepted formats",
+  "allFormats": "All supported formats",
+  "validation": "Validation",
+  "pattern": "Regular expression",
+  "minLength": "Minimum length",
+  "maxLength": "Maximum length",
+  "requiredPrefix": "Required prefix",
+  "requiredSuffix": "Required suffix",
+  "hardwareDebounce": "Hardware scanner repeat guard (ms)",
+  "outputTemplate": "Output template",
+  "templatesFromComputer": "Templates arrive from the computer after connecting.",
+  "templateOverrideHint": "Choose a template or use the computer's active one.",
+  "computerDefault": "Computer default",
+  "refreshTemplates": "Refresh templates from computer",
+  "privacy": "Privacy",
+  "privacyMobile": "ScanBridge has no account, no telemetry and no cloud. Scans are stored on this phone and sent only to the computer you paired, on your local network."
+}

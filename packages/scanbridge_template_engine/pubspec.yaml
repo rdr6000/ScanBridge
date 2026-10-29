@@ -1,0 +1,15 @@
+name: scanbridge_template_engine
+description: ScanBridge template_engine package.
+publish_to: none
+version: 0.1.0
+resolution: workspace
+environment:
+  sdk: ^3.13.0
+dependencies:
+  intl: ^0.20.3
+  scanbridge_domain:
+    path: ../scanbridge_domain
+  uuid: ^4.6.0
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.31.1

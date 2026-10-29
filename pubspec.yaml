@@ -1,0 +1,14 @@
+name: scanbridge_workspace
+publish_to: none
+environment:
+  sdk: ^3.13.0
+workspace:
+  - apps/desktop
+  - apps/mobile
+  - packages/scanbridge_domain
+  - packages/scanbridge_protocol
+  - packages/scanbridge_template_engine
+  - packages/scanbridge_storage
+  - packages/scanbridge_ui
+dev_dependencies:
+  lints: any

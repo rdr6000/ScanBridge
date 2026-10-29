@@ -1,0 +1,20 @@
+name: scanbridge_storage
+description: ScanBridge storage package.
+publish_to: none
+version: 0.1.0
+resolution: workspace
+environment:
+  sdk: ^3.13.0
+dependencies:
+  drift: ^2.35.3
+  path: ^1.9.1
+  scanbridge_domain:
+    path: ../scanbridge_domain
+  scanbridge_template_engine:
+    path: ../scanbridge_template_engine
+  sqlite3: ^3.8.0
+dev_dependencies:
+  build_runner: ^2.16.1
+  drift_dev: ^2.35.2
+  lints: ^6.1.0
+  test: ^1.31.1
