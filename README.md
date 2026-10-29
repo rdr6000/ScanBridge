@@ -8,6 +8,14 @@ ScanBridge turns an Android phone or iPhone into a barcode/QR scanner for a Wind
 
 > This is an independent implementation inspired by the workflows of Barcode to PC. No code, assets or protocol were copied (see `docs/PROVENANCE.md`).
 
+## Download
+
+The app is free for everyone under the MIT license. Get the latest build from **[Releases](https://github.com/rdr6000/ScanBridge/releases/latest)**:
+
+- **Windows:** `ScanBridge-<version>-windows-x64.zip`. Unzip it and run `scanbridge_desktop.exe`.
+- **Android:** `ScanBridge-<version>-android.apk`. Sideload it and allow "Install unknown apps".
+- Check downloads against `SHA256SUMS.txt`.
+
 ## Status
 
 | Platform | Role | State |

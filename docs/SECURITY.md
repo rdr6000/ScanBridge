@@ -27,6 +27,12 @@
 - On Linux, secure storage needs libsecret and a running Secret Service. Without it, storing secrets fails visibly; there is no plaintext fallback.
 - "Forget"/"Revoke" deletes the device secret.
 
+## Release signing
+
+- Android release APKs are signed with the ScanBridge release key. Its certificate SHA-256 is `e28e0558001f9a7df5b4a564dc1c25d6dc28252e96152851134f723cc3348daf`.
+- The keystore and its passwords are never committed. Gradle reads them from the git-ignored `android/key.properties`. Builds without that file fall back to debug signing.
+- Windows builds are not code-signed yet.
+
 ## Not claimed
 
 - The database is not encrypted at rest (it relies on OS user-account protection).
