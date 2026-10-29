@@ -8,6 +8,26 @@ ScanBridge turns an Android phone or iPhone into a barcode/QR scanner for a Wind
 
 > This is an independent implementation inspired by the workflows of Barcode to PC. No code, assets or protocol were copied (see `docs/PROVENANCE.md`).
 
+## Screenshots
+
+**Desktop host (Windows)**
+
+| Dashboard and one-time pairing QR | Live feed with delivery and output status |
+|---|---|
+| ![Dashboard with server status, pairing QR code and getting-started checklist](docs/screenshots/desktop-dashboard.png) | ![Live feed listing scans with Delivered, Typed, Paused and Duplicate chips, and a detail panel](docs/screenshots/desktop-live-feed.png) |
+| **Template builder with dry run** | **Keyboard output test** |
+| ![Inventory Intake template steps and a dry run showing exact keystrokes and the CSV row](docs/screenshots/desktop-template-editor.png) | ![Keyboard test panel that typed a Unicode test string into a field](docs/screenshots/desktop-keyboard-test.png) |
+
+**Phone app (Android)**
+
+<p>
+  <img src="docs/screenshots/mobile-home.png" width="250" alt="Home screen with connection status, large Scan button and recent scans">
+  <img src="docs/screenshots/mobile-template-prompt.png" width="250" alt="Template prompt asking for quantity and condition before saving a scan">
+  <img src="docs/screenshots/mobile-session.png" width="250" alt="Session scans with delivery and output status for each code">
+</p>
+
+*From left: home screen, template prompt (quantity and condition), and session scans showing what was delivered, typed or paused.*
+
 ## Download
 
 The app is free for everyone under the MIT license. Get the latest build from **[Releases](https://github.com/rdr6000/ScanBridge/releases/latest)**:
